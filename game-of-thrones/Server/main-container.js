@@ -1,15 +1,21 @@
 const axios = require('axios');
 
-var characterList = [];
+var character = [];
 
-function getNames(req, res, next) {
+function getCharacter(req, res, next) {
     axios.get('https://anapioficeandfire.com/api/characters?page=1&pageSize=50').then( response =>{
-        characterList = response.data
+        character = response.data
         console.log('test', response.data)
-        res.status(200).send(characterList)
+        res.status(200).send(character)
     }).catch(err => res.status(500).send(err))
 }
 
+function addCharacter() {
+    character.push(req.body.newFavorite)
+    res.status(200).send(character)
+}
+
 module.exports={
-    getNames
+    getCharacter,
+    addCharacter
 };

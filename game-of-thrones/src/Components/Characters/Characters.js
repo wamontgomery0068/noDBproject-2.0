@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import './CharactersList.css';
+import './Characters.css';
 
 import axios from 'axios';
 
-class CharacterList extends Component {
+class Characters extends Component {
     constructor(){
         super()
 
         this.state = {
-            Characters: []
+            Characters: [],
+            favList: []
         }
     }
 
@@ -32,11 +33,23 @@ class CharacterList extends Component {
 
         return (
             <div className="Content_Container">
-            {Names}
+                <div className="Character_Box">
+                    <div className="Characters">
+                        <h2>Characters</h2>
+                    </div>
+                    <div className="Characters_List">
+                        {Names}
+                    </div>
+                </div>
+                <div className="Favorite_Box">
+                    <div className="Favorites">
+                        <h2>Favorites List</h2>
+                    </div>
+                </div>
             </div>
         )
     }
 
 }
 
-export default CharacterList;
+export default Characters;

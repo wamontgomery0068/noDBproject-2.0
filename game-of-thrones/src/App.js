@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CharactersList from './Components/CharactersList/CharactersList';
+import Characters from './Components/Characters/Characters';
 import Header from './Components/Header/Header';
 import './App.css';
 
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <CharactersList />
+        <Characters />
       </div>
     );
   }

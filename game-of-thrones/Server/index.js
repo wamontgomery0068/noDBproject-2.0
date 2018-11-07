@@ -10,7 +10,8 @@ app.use( bodyParser.json() );
 app.use( cors() );
 
 // Primary Endpoints
-app.get("/api/characters/", mc.getNames);
+app.get("/api/characters/", mc.getCharacter)
+app.post("/api/characters/", mc.addCharacter)
 
 
 app.listen(port, () => {console.log(`We are live on port: ${port}`)

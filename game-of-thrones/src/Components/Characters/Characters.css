@@ -1,0 +1,26 @@
+.Content_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content:center;
+    height: 241vh;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px navy;
+}
+
+.Character_Box {
+    height: 327.5 vh;
+    width: 50%;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px black;
+    text-align: center;
+}
+
+.Favorite_Box {
+    height: 327.5 vh;
+    width: 50%;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px black;
+    text-align: center;
+}
