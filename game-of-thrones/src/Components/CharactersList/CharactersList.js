@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './CharacterList.css';
+import './CharactersList.css';
+
+import axios from 'axios';
 
 class CharacterList extends Component {
     constructor(){
@@ -19,7 +21,8 @@ class CharacterList extends Component {
 
     render(){
         console.log(this.state.Characters)
-        let Names = this.state.Characters.map( (element, index) => {
+        let Names = this.state.Characters.filter( (element) => {return element.name && element.name !==''})
+        .map( (element, index) => {
             return (
                 <div key={ index }>
                     <h3>{element.name}</h3>
@@ -29,7 +32,7 @@ class CharacterList extends Component {
 
         return (
             <div className="Content_Container">
-                {Names}
+            {Names}
             </div>
         )
     }
