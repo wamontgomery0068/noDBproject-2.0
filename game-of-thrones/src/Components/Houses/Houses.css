@@ -1,0 +1,63 @@
+.Inner_Container {
+    background-color: hsl(23, 20%, 56%);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+    height: 138vh;
+    margin: 2px 2px 2px 2px;
+    /* border: solid 2px hsl(21, 35%, 45%); */
+}
+
+.Left_Container {
+    background-color: white;
+    height: 100vh;
+    width: 40%;
+    margin: 4px 4px 4px 4px;
+    /* border: solid 2px rgb(153, 102, 74); */
+    text-align: center;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: center;
+}
+
+.Left_Title {
+    height: 10vh;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px hsl(0, 100%, 75%);
+} 
+
+.House_Names {
+    height: 88vh;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px hsl(0, 100%, 75%);
+    text-align: center;
+} 
+
+.Right_Container {
+    background-color: white;
+    height: 100vh;
+    width: 60%;
+    margin: 4px 4px 4px 4px;
+    /* border: solid 2px rgb(153, 102, 74); */
+    text-align: center;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: center;
+}
+
+.Right_Title {
+    height: 10vh;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px hsl(0, 100%, 75%);
+}
+
+.Name_List {
+    height: 88vh;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px hsl(0, 100%, 75%);
+}

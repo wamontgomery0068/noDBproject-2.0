@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  height: 350vh;
+  height: 121vh;
   margin: 1px 1px 1px 1px;
-  /* border: solid 2px red; */
+  /* border: solid 2px rgb(153, 102, 74); */
 }
