@@ -9,8 +9,10 @@ const app = express();
 app.use( bodyParser.json() );
 app.use( cors() );
 
-// Primary Endpoint
-app.get("/api/gameofthrones/houses", mc.getHouses)
+// Endpoints
+app.get("/api/gameofthrones/houses", mc.getHouse)
+app.get("/api/gameofthrones/houses/crest", mc.getCrest)
+app.post("/api/gameofthrones/crest", mc.addCrest)
 
 
 app.listen(port, () => {console.log(`We are live on port: ${port}`)

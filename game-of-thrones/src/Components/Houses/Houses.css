@@ -1,63 +1,116 @@
 .Inner_Container {
-    background-color: hsl(23, 20%, 56%);
+    position: relative;
+    height: 175vh;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px hsl(21, 35%, 45%);
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
 	align-items: stretch;
+	justify-content: space-between;
 	align-content: stretch;
-    height: 138vh;
-    margin: 2px 2px 2px 2px;
-    /* border: solid 2px hsl(21, 35%, 45%); */
+    background-color: hsl(23, 20%, 56%);
 }
 
 .Left_Container {
-    background-color: white;
-    height: 100vh;
-    width: 40%;
+    position: relative;
+    height: 172vh;
+    width: 50%;
     margin: 4px 4px 4px 4px;
-    /* border: solid 2px rgb(153, 102, 74); */
-    text-align: center;
+    border: solid 2px rgb(153, 102, 74);
 	flex-direction: column;
-	justify-content: space-between;
 	align-items: stretch;
+	justify-content: space-between;
 	align-content: center;
+    background-color: white;
 }
 
 .Left_Title {
-    height: 10vh;
+    position: relative;
+    height: 8vh;
     margin: 2px 2px 2px 2px;
     border: solid 2px hsl(0, 100%, 75%);
-} 
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* text-align: center; */
+}
+
+
 
 .House_Names {
-    height: 88vh;
+    position: relative;
+    height: 160vh;
     margin: 2px 2px 2px 2px;
     border: solid 2px hsl(0, 100%, 75%);
+    display: flex;
+    /* align-content: center; */
+    /* align-items: center; */
+    justify-content: center;
+    background-color: white;
     text-align: center;
 } 
 
 .Right_Container {
-    background-color: white;
-    height: 100vh;
-    width: 60%;
+    height: 172vh;
+    width: 50%;
     margin: 4px 4px 4px 4px;
-    /* border: solid 2px rgb(153, 102, 74); */
+    border: solid 2px rgb(153, 102, 74);
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+	align-content: center;
+    background-color: white;
     text-align: center;
+}
+
+.Right_Title {
+    position: relative;
+    height: 8vh;
+    margin: 2px 2px 2px 2px;
+    border: solid 2px hsl(0, 100%, 75%);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.Crest_List {
+    height: 160vh;
+    border: solid 2px hsl(0, 100%, 75%);
+    background-color: white;
+    text-align: center;
+}
+
+.Display_Card {
+    height: 60vh;
+    margin: 50px;
+    border: solid 2px hsl(26, 31%, 57%);
+    background-color:hsl(0, 0%, 76%);
+    display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: center;
 }
 
-.Right_Title {
-    height: 10vh;
-    margin: 2px 2px 2px 2px;
-    border: solid 2px hsl(0, 100%, 75%);
+.Display_Crest {
+    height: 60vh;
+    margin: 70px;
 }
 
-.Name_List {
-    height: 88vh;
-    margin: 2px 2px 2px 2px;
-    border: solid 2px hsl(0, 100%, 75%);
-}
+
+
+/* .Display_Card {
+    height: 60vh;
+    margin: 50px;
+    border: solid 2px red;
+    background-color: black;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: center;
+} */
