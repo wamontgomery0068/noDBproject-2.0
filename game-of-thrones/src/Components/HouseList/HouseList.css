@@ -40,14 +40,8 @@
 
 
 .House_Names {
-    position: relative;
     height: 160vh;
-    margin: 2px 2px 2px 2px;
     border: solid 2px hsl(0, 100%, 75%);
-    display: flex;
-    /* align-content: center; */
-    /* align-items: center; */
-    justify-content: center;
     background-color: white;
     text-align: center;
 } 
@@ -84,7 +78,7 @@
     text-align: center;
 }
 
-.Display_Card {
+/* .Display_Card {
     height: 60vh;
     margin: 50px;
     border: solid 2px hsl(26, 31%, 57%);
@@ -94,12 +88,12 @@
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: center;
-}
+} */
 
-.Display_Crest {
+/* .Display_Crest {
     height: 60vh;
     margin: 70px;
-}
+} */
 
 
 
